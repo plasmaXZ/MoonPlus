@@ -37,6 +37,6 @@ function main()
 			end
 		end
 		
-		wait(0)
+		wait(100)
 	end
 end
