@@ -22,17 +22,16 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-#include "sol.hpp"
+#include "pch.h"
 #include "Bullet.hpp"
 #include "Placeable.hpp"
 #include "Entity.hpp"
 #include "Physical.hpp"
 #include "Sound.hpp"
 #include "Weapon.hpp"
-#include "Vehicle.hpp"
-#include "Automobile.hpp"
 #include "Transmission.hpp"
 #include "VehicleAudio.hpp"
+#include "Automobile.hpp"
 #include "GameSettings.hpp"
 #include "Weather.hpp"
 #include "Noise.hpp"
@@ -50,9 +49,8 @@ sol::table open(sol::this_state ts)
 	placeable::initialize(module);
 	entity::initialize(module);
 	physical::initialize(module);
-	vehicle::initialize(module);
-	automobile::initialize(module);
 	transmission::initialize(module);
+	automobile::initialize(module);
 	sound::initialize(module);
 	vehicle_audio::initialize(module);
 	weapon::initialize(module);
