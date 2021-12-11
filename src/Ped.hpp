@@ -67,6 +67,8 @@ namespace ped
 		uintptr_t GetVehicleAddress();
 		int32_t GetType();
 		void SetType(int32_t type);
+		uint8_t GetActiveWeaponSlot();
+		void SetActiveWeaponSlot(uint8_t slot);
 		void ClearWeapons();
 	};
 

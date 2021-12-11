@@ -171,6 +171,16 @@ namespace ped
 		m_Ped->m_nPedType = type;
 	}
 
+	uint8_t Ped::GetActiveWeaponSlot()
+	{
+		return m_Ped->m_nActiveWeaponSlot;
+	}
+
+	void Ped::SetActiveWeaponSlot(uint8_t slot)
+	{
+		m_Ped->m_nActiveWeaponSlot = slot;
+	}
+
 	void Ped::ClearWeapons()
 	{
 		m_Ped->ClearWeapons();
@@ -209,6 +219,8 @@ namespace ped
 			"max_health", sol::property(&Ped::GetMaxHealth, &Ped::SetMaxHealth),
 			"armor", sol::property(&Ped::GetArmor, &Ped::SetArmor),
 			"type", sol::property(&Ped::GetType, &Ped::SetType),
+			"active_weapon_slot", sol::property(&Ped::GetActiveWeaponSlot,
+					&Ped::SetActiveWeaponSlot),
 			"get_vehicle_pointer", &Ped::GetVehicleAddress,
 			"clear_weapons", &Ped::ClearWeapons);
 
