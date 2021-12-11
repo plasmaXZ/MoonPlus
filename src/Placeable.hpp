@@ -24,9 +24,7 @@
 
 #pragma once
 
-#include <math.h>
-#include "sol.hpp"
-#include "plugin.h"
+#include "pch.h"
 #include "Wrapper.hpp"
 #include "CPlaceable.h"
 

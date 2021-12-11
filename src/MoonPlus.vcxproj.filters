@@ -3,8 +3,6 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Bullet.cpp" />
-    <ClCompile Include="LuaPointer.cpp" />
-    <ClCompile Include="PointerUtils.cpp" />
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="Physical.cpp" />
     <ClCompile Include="Placeable.cpp" />
@@ -15,16 +13,14 @@
     <ClCompile Include="Weather.cpp" />
     <ClCompile Include="PerlinNoise\SimplexNoise.cpp" />
     <ClCompile Include="Automobile.cpp" />
-    <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="VehicleAudio.cpp" />
     <ClCompile Include="Noise.cpp" />
     <ClCompile Include="NormalDistribution.cpp" />
     <ClCompile Include="Ped.cpp" />
+    <ClCompile Include="pch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bullet.hpp" />
-    <ClInclude Include="LuaPointer.hpp" />
-    <ClInclude Include="PointerUtils.hpp" />
     <ClInclude Include="Entity.hpp" />
     <ClInclude Include="Physical.hpp" />
     <ClInclude Include="Placeable.hpp" />
@@ -36,12 +32,12 @@
     <ClInclude Include="Weather.hpp" />
     <ClInclude Include="PerlinNoise\SimplexNoise.h" />
     <ClInclude Include="Automobile.hpp" />
-    <ClInclude Include="Vehicle.hpp" />
     <ClInclude Include="VehicleAudio.hpp" />
     <ClInclude Include="Transmission.cpp" />
     <ClInclude Include="Transmission.hpp" />
     <ClInclude Include="Noise.hpp" />
     <ClInclude Include="NormalDistribution.hpp" />
     <ClInclude Include="Ped.hpp" />
+    <ClInclude Include="pch.h" />
   </ItemGroup>
 </Project>

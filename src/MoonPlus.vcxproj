@@ -68,6 +68,7 @@
       <PreprocessorDefinitions>_NDEBUG;_USING_V110_SDK71_;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;GTASA;GTAGAME_NAME="San Andreas";GTAGAME_ABBR="SA";GTAGAME_ABBRLOW="sa";GTAGAME_PROTAGONISTNAME="CJ";GTAGAME_CITYNAME="San Andreas";PLUGIN_SGV_10US;PLUGIN_SGV_10EU;PLUGIN_SGV_11US;LUA_BUILD_AS_DLL;SOL_EXCEPTIONS_SAFE_PROPAGATION;SOL_NO_CHECK_NUMBER_PRECISION;SOL_SAFE_NUMERICS;SOL_LUAJIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <AdditionalOptions>/Zc:threadSafeInit- %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -106,16 +107,14 @@
     <ClCompile Include="GameSettings.cpp" />
     <ClCompile Include="Noise.cpp" />
     <ClCompile Include="NormalDistribution.cpp" />
+    <ClCompile Include="pch.cpp" />
     <ClCompile Include="Ped.cpp" />
     <ClCompile Include="PerlinNoise\SimplexNoise.cpp" />
     <ClCompile Include="Physical.cpp" />
     <ClCompile Include="Placeable.cpp" />
-    <ClCompile Include="LuaPointer.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="PointerUtils.cpp" />
     <ClCompile Include="Sound.cpp" />
     <ClCompile Include="Automobile.cpp" />
-    <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="VehicleAudio.cpp" />
     <ClCompile Include="Weapon.cpp" />
     <ClCompile Include="Weather.cpp" />
@@ -126,18 +125,16 @@
     <ClInclude Include="Entity.hpp" />
     <ClInclude Include="Noise.hpp" />
     <ClInclude Include="NormalDistribution.hpp" />
+    <ClInclude Include="pch.h" />
     <ClInclude Include="Ped.hpp" />
     <ClInclude Include="Physical.hpp" />
     <ClInclude Include="Placeable.hpp" />
-    <ClInclude Include="LuaPointer.hpp" />
-    <ClInclude Include="PointerUtils.hpp" />
     <ClInclude Include="PerlinNoise\SimplexNoise.h" />
     <ClInclude Include="Sound.hpp" />
     <ClInclude Include="Automobile.hpp" />
     <ClInclude Include="GameSettings.hpp" />
     <ClInclude Include="Transmission.cpp" />
     <ClInclude Include="Transmission.hpp" />
-    <ClInclude Include="Vehicle.hpp" />
     <ClInclude Include="VehicleAudio.hpp" />
     <ClInclude Include="Weapon.hpp" />
     <ClInclude Include="Weather.hpp" />

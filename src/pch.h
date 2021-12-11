@@ -22,12 +22,7 @@
 // SOFTWARE.
 
 #pragma once
-#include <string>
-#include <queue>
-#include <memory>
-#include <unordered_map>
+
 #include <math.h>
-#include <Windows.h>
 #include "sol.hpp"
-#include "sol_custom_types.hpp"
 #include "plugin.h"
