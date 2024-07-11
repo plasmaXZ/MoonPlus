@@ -13,7 +13,7 @@ The copyrights primarily belong to [DK22Pac](https://github.com/DK22Pac), [THE-F
 
 Checkout the [Wiki](https://github.com/plasmaXZ/MoonPlus/wiki) for more information.
 
-## Instalation
+## Installation
 Download [MoonPlus.dll](https://github.com/plasmaXZ/MoonPlus/releases) and move it to the **moonloader/lib** folder.
 
 ## Authors
